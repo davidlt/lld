@@ -22,6 +22,7 @@ add_lld_library(lldMachO
     lldYAML
     LLVMObject
     LLVMSupport
+    pthread
   )
 
 include_directories(.)

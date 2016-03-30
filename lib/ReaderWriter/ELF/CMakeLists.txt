@@ -17,6 +17,7 @@ add_lld_library(lldELF
     lldYAML
     LLVMObject
     LLVMSupport
+    pthread
   )
 
 include_directories(.)

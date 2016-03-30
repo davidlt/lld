@@ -37,6 +37,7 @@ add_lld_library(lldDriver
     LLVMObject
     LLVMOption
     LLVMSupport
+    pthread
   )
 
 add_dependencies(lldDriver DriverOptionsTableGen)

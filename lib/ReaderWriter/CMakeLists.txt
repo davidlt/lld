@@ -19,4 +19,5 @@ add_lld_library(lldReaderWriter
     lldYAML
     LLVMObject
     LLVMSupport
+    pthread
   )
